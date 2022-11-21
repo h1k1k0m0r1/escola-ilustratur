@@ -1,0 +1,91 @@
+html, body {
+    min-height: 100%;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12;
+    padding: 0;
+    margin: 0;
+}
+
+h1.title {
+    text-align: center;
+    background-color: #414141;
+    color: #959294;
+    padding-block: 0.4rem;
+}
+
+
+p { 
+    text-align: justify;
+    padding-left: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12;
+}
+
+/* BODY->FUNCIONAL */
+.nav-link {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 14;
+};
+
+.navbar-brand {
+    padding: 0.8rem 1.8rem;
+    font-size: 12;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    display: grid;
+}; 
+
+ul {
+    background-color: #7f2b3e;
+}
+
+#btn {
+    padding: 0.8rem 1.8rem;
+    display: inline-block;
+    color: #fff;
+    cursor: pointer;
+    }
+
+    #btn:hover {
+        color: gray;
+        }
+
+
+
+/* funcionalidade->rodapé */        
+footer {
+    padding: 0.8rem 1.8rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    position: absolute;
+    bottom: 1000;
+    background-color: #414141;
+    color: #FFF;
+    width: 100%;      
+    line-height: 100px;
+    /*margin: 15px; color: 414141; ver a margem*/
+}
+
+h5 {
+    text-align: left;
+}
+
+/*
+    border-bottom-right-radius:5px;
+    border-bottom-left-radius:5px;
+
+    nav {
+    background-color: #661B2B;
+    border-radius: 0px 0px 30px 30px;
+} 
+
+/*.justify-content-end {
+    border-radius: 10px;
+    background-color: #7f2b3e;
+    color: #fff;
+
+}*/
