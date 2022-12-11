@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<!--bootstrap-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" integrity="sha384-
+wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+<!--Css oficial-->
+<link rel="stylesheet" href="Css_base(4.0).css" >
+<title>Escola Ilustrattur</title>
+</head>
+<!--visão 0.0-->
+
+<body>
+        <!--NAV barra de navegação-->
+        <div class="fundo-carrossel" style="background-color:#414141;">
+          <nav class="navbar" style="background-color: #661B2B;border-radius: 0px 0px 30px 30px;">
+        
+              <div style="justify-content:left ;">
+                &nbsp;<img src="Homem vitruviano.jfif" height="150" width="150" style="border-radius: 50%;margin: 1rem;">
+                  <a class="navbar-brand" href="0 ) Home 4.0.html" id="btn">
+                      <h2>Escola Illustrattur</h2>
+                  </a>
+              </div>
+        
+              <ul class="nav justify-content-end" style="border-radius: 10px; background-color: #7f2b3e; color: white;">
+                  <li class="borda">
+                      <a class="nav-link" href="4) Serviços (4.0).html" id="btn">Serviços</a>
+                  </li>
+                  <li class="borda">
+                      <a class="nav-link" href="1 )Apoio psicológico 4.0.html" id="btn">Apoio Psicológico</a>
+                  </li>
+                  <li class="borda">
+                      <a class="nav-link" href="2 ) Sobre nós 4.0.html" id="btn">Sobre-nós</a>
+                  </li>
+                  <li class="borda">
+                      <a class="nav-link" href="3 ) html boletim 4.0.html " id="btn">Notas </a>
+                  </li>
+              </ul>
+          </nav>    
+        <!--final do nav-->
+</div>
+
+<!--começo conteudo-->
+<div class="envolvedor">
+<h1 class="title">Suas notas!</h1>
+<div class="nome">Nome:<input></div>
+</div>
+
+
+<br><br>
+
+<!---divisão 1.0 boletim-->
+
+
+
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Matérias</th>
+            <th scope="col">1º Trimeste</th>
+            <th scope="col">2º Trimestre</th>
+            <th scope="col">3º Trimestre</th>
+          </tr>
+        </thead>
+
+
+        <tbody>
+          <tr>
+            <th scope="row">Português</th>
+            
+            <td>Primeira nota <input id="nopt1" type="number"> <br /></td>
+            <td>Segunda  nota <input id="nopt2" type="number"> <br /></td>
+            <td>Terceira  nota <input id="nopt3" type="number"> <br /></td>
+            <td><button onclick="portugues()">Calcular Média</button></td>
+          </tr>
+          <tr>
+            <th scope="row">Matemática</th
+              >
+            <td>Primeira nota <input id="nota1" type="number"> <br /></td>
+            <td>Segunda  nota <input id="nota2" type="number"> <br /></td>
+            <td>Terceira  nota <input id="nota3" type="number"> <br /></td>
+            <td><button onclick="matematica()">Calcular Média</button></td>
+          </tr>
+          <tr>
+            <th scope="row">Química</th>
+ 
+            <td>Primeira nota <input id="notquim1" type="number"> <br /></td>
+            <td>Segunda  nota <input id="notquim2" type="number"> <br /></td>
+            <td>Terceira  nota <input id="notquim3" type="number"> <br /></td>
+            <td><button onclick="quimica()">Calcular Média</button></td>
+          </tr>
+          <tr>
+            <th scope="row">Biologia</th>
+
+            <td>Primeira nota <input id="nota_bio1" type="number"> <br /></td>
+            <td>Segunda  nota <input id="nota_bio2" type="number"> <br /></td>
+            <td>Terceira  nota <input id="nota_bio3" type="number"> <br /></td>
+            <td><button onclick="biologia()">Calcular Média</button></td>
+          </tr>
+          <tr>
+            <th scope="row">Geografia</th>
+            
+            <td>Primeira nota <input id="nota_geografia1" type="number"> <br /></td>
+            <td>Segunda  nota <input id="nota_geografia2" type="number"> <br /></td>
+            <td>Terceira  nota <input id="nota_geografia3" type="number"> <br /></td>
+            <td><button onclick="geografia()">Calcular Média</button></td>
+          </tr>
+          <tr>
+            <th scope="row">História</th>
+
+            <td>Primeira nota <input id="nota_historia1" type="number"> <br /></td>
+            <td>Segunda  nota <input id="nota_historia2" type="number"> <br /></td>
+            <td>Terceira  nota <input id="nota_historia3" type="number"> <br /></td>
+            <td><button onclick="historia()">Calcular Média</button></td>
+          </tr>
+          <tr>
+            <th scope="row">Filosofia</th>
+            
+            <td>Primeira nota <input id="nota_filosofia1" type="number"> <br /></td>
+            <td>Segunda  nota <input id="nota_filosofia2" type="number"> <br /></td>
+            <td>Terceira  nota <input id="nota_filosofia3" type="number"> <br /></td>
+            <td><button onclick="filosofia()">Calcular Média</button></td>
+          </tr>
+          <tr>
+            <th scope="row">Espanhol</th>
+
+            <td>Primeira nota <input id="nota_espanhol1" type="number"> <br /></td>
+            <td>Segunda  nota <input id="nota_espanhol2" type="number"> <br /></td>
+            <td>Terceira  nota <input id="nota_espanhol3" type="number"> <br /></td>
+            <td><button onclick="espanhol()">Calcular Média</button></td>
+          </tr>
+          <tr>
+            <th scope="row">Inglês</th>
+  
+            <td>Primeira nota <input id="nota_ingles1" type="number"> <br /></td>
+            <td>Segunda  nota <input id="nota_ingles2" type="number"> <br /></td>
+            <td>Terceira  nota <input id="nota_ingles3" type="number"> <br /></td>
+            <td><button onclick="ingles()">Calcular Média</button></td>
+          </tr>
+          <tr>
+            <th scope="row">Educação Física</th>
+            <td>Primeira nota <input id="nota_Edufisica1" type="number"> <br /></td>
+            <td>Segunda  nota <input id="nota_Edufisica2" type="number"> <br /></td>
+            <td>Terceira  nota <input id="nota_Edufisica3" type="number"> <br /></td>
+            <td><button onclick="Edfisics()">Calcular Média</button></td>  
+          </tr>
+        </tbody>
+      </table>
+
+<!--js-->
+
+
+
+
+
+<script src="JS copy.js"></script>
+
+
+       <!--rodapé-->
+
+  <footer>
+    <div class="foot-flex">
+      <div class="contate-nos" style="float: left;"> 
+        <h5 class="rodape">Contate-nos</h5>
+      <h6>
+        <p>
+          <img src="87390.png" width="50px" height="50px" alt="imagem de redes socais">
+            &nbsp;<a href="https://www.instagram.com/explore/tags/escolaenem/" id="btn">Instagram</a>
+        </p>
+      </h6>
+      <h6>
+        <p>
+          <img src="face.png" width="50px" height="50px" alt="imagem de redes socais">
+                &nbsp;<a href="https://www.facebook.com/hashtag/escolaEnem/" id="btn">Facebook</a>
+        </p>
+      </h6>
+      <h6>
+        <p>
+          <img src="email.png" width="50px" height="50px" alt="imagem de redes socais">
+          &nbsp;<a href="" id="btn">Email</a>
+        </p>
+        </h6>
+    </div>
+  
+        <div class="apoiadores" style="float: right; margin-left:40rem ;">
+    
+    <h5 class="footer">Apoiadores</h5>
+      <h6>
+        <p>
+          <img src="output-onlinepngtools (7).png" width="50px" height="50px" alt="IOS">
+                  &nbsp;<a href="https://ios.org.br/" id="btn">Instituto de Oportunidade Social</a>
+        </p>
+      </h6>
+      <h6>
+        <p>
+            <img src="poleidro.png" width="50px" height="50px" alt="Poliedro">
+              &nbsp;<a href="https://www.sistemapoliedro.com.br/?gclid=EAIaIQobChMIrY_X0Njq-wIVyUJIAB201Qt1EAAYASAAEgJV-_D_BwE" id="btn">Poliedro</a>
+        </p>
+      </h6>
+      <h6>
+          <p>
+            <img src="totvs1.png" width="50px" height="50px" alt="TOTVS">
+              &nbsp;<a href="https://www.totvs.com/?utm_campaign=s-institucional-totvs&utm_source=google-search&utm_medium=cpc&utm_term=totvs&utm_term=totvs&utm_campaign=s_institucional-totvs&utm_source=adwords&utm_medium=ppc&hsa_acc=5745705588&hsa_cam=209050px9804&hsa_grp=79858172522&hsa_ad=539034260054&hsa_src=g&hsa_tgt=aud-403323822474:kwd-978197068&hsa_kw=totvs&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gclid=EAIaIQobChMIhre7-tfq-wIVROZcCh3Rtgl5EAAYAiAAEgLFSPD_BwE" id="btn">TOTVS</a>
+          </p>
+      </h6>
+  </div>
+  </footer>
+  <div id="ancora"></div>   
+</body>
+</html>

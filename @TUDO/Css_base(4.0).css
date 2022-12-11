@@ -1,0 +1,419 @@
+html, body {
+    min-height: 100%;
+}
+
+
+.logo {
+    height: 150px; 
+    width: 150px; 
+    border-radius: 50%;
+     margin: 1rem;
+}
+
+body {
+    font-size: 12;
+    padding: 0;
+    margin: 0;
+    font-family: "Tahoma", sans-serif;
+    background: white;
+}
+.home {
+    background-color: #707070;
+}
+
+
+h1.title {
+    font-size: 2.2rem;
+    text-align: center;
+    background-color: #414141;
+    color: #959294;
+    padding-block: 0.3rem;
+    border-radius: 0 0 30px 30px;
+}
+
+
+h2 {
+    color: white;
+}
+
+
+h2.titulo {
+    padding: 0.4rem;
+    margin:1rem;
+    background-color: #414141;
+    border-radius: 0.8rem;
+    }
+/*Tabela notas*/
+div.nome {
+    font-size: 1.4rem;
+    background-color:#959294;
+    border-radius: 30px 30px 30px 30px;
+    text-align: center;
+    padding-block: 0.4rem;
+    color: #414141;
+    margin: 0px 1.8rem 0px 1.8rem; 
+}
+
+div.notas {
+    padding-block: 1.2rem;
+    background-color: #661B2B;
+    color: white;
+    margin-right: 70%;   
+    border-radius: 00px 30px 30px 00px;
+}
+
+
+h4 {
+    text-align: center;
+    padding: 0.6rem;
+}
+/*final*/
+a {
+    color: #333;
+    text-decoration: none;
+    }
+
+p { 
+    text-align: justify;
+    padding-left: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12;
+}
+
+p.carrossel {
+    text-align: center;
+    background-color: #414141;
+    opacity: 1;
+}
+
+/* BODY->FUNCIONAL */
+.nav-link {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 14;
+};
+
+.navbar-brand {
+    padding: 0.8rem 1.8rem;
+    font-size: 12;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    display: grid;
+}; 
+
+ul {
+    background-color: #7f2b3e;
+}
+
+#btn {
+    padding: 0.8rem 1.8rem;
+    display: inline-block;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Tahoma", sans-serif;
+    font-size: 14px;
+    }
+
+    #btn:hover {
+        color: gray;
+        }
+  
+   
+
+
+   h2.nome-categoria {
+    text-align: center;
+    background-color:#414141;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.8rem;
+}
+
+cor-fundo-main {
+    background-color: #959294;
+}
+/*nav*/
+
+
+
+/*psico*/
+p.section-psic {
+    align-self: baseline;
+    text-align: justify;
+    align-content: center;
+    font-size: large;
+}
+
+div.cinza {
+    border: 0.8rem solid #aaaaaa;}
+
+img.main {
+    width: 100%;
+    height: 100%;
+}
+
+
+img.sobre-nos {
+    margin-top: 3rem;
+    margin-left: 6.0rem;
+    width: 80%; 
+    height: 80%;
+}
+
+.sobre2 {
+    margin-left: 6.0rem;
+    margin-top: 5rem;
+    width: 70%; 
+    height: 60%;
+
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    background: white;
+    margin-bottom:2rem   
+
+     /* serve para merdir o espaço entre as imagens*/
+    /*border: 1px solid #aaaaaa;*/
+    /*margin: bottom 2rem;*/
+    }
+
+
+
+    .card h3 {
+        margin-bottom: 2rem;
+        }
+        
+        h1.centralizado {
+            text-align: center;
+        }
+        
+        .get-center {
+            margin-left: auto;
+            margin-right: auto;
+            width: 40%;
+            height: 100%;
+        }
+
+        .imagem-uwu {
+            height: 100%;
+            width: 100%;}
+    
+
+        #organizar {
+            margin-left: 2.0rem;
+            margin-right: auto;
+            width: 40%;
+            height: 100%;
+        }
+
+        #organizar2 {
+            margin-left: auto;
+            margin-right: 2.0rem;
+            width: 40%;
+            height: 100%;
+        }
+        
+        p.quatro {
+            margin-left: 2rem;
+            margin-right: 2rem;
+            font-size: large;
+        }
+        
+        
+        .card img {
+        float: unset;
+        }
+        
+        .card>div {
+        padding: 2rem;
+        }
+                             
+        .card:nth-child(even) img {
+        order: 2;}
+                                    
+        .btn {
+        display: inline-block;
+        background: #000;
+        color: #fff;
+        padding: 0.8rem 1.8rem;
+        margin-top: 2rem;
+        cursor: pointer;
+                                       
+        }
+        .btn:hover {
+            opacity: 0.9;
+            }
+
+/*psico*/
+
+
+
+/*Home quadros*/
+#showcase {
+    height:460px;
+    background-size: cover;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 2rem;
+
+   }
+   
+.col {
+float: left;
+width: 30%;
+padding: 8px;
+box-sizing: border-box;
+margin: 0.9rem;
+}
+
+.alinha {
+    display:flex
+}
+
+   
+   .price-box {
+    background: #fff;
+    color: #7f2b3e;
+    list-style-type: none;
+    border: 3px solid #7f2b3e ;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    padding: 0;
+    box-shadow: 0px 38px 30px rgba(0, 0, 0, 0.485);
+   }
+   
+   .price-box .header {
+    background-color: #7f2b3e;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 20px 20px 10px 10px;
+}
+   
+
+   .price-box li {
+    padding: 20px;
+    border-bottom: 20px solid #eee;
+    text-align: center;
+   }
+div.btn1{
+padding: 0.3rem;
+}
+
+/*botão com movimento*/
+
+/*.btn {
+   position: relative;
+    display: block;
+   background-color:#7f2b3e;
+    border-radius: 15px solid #7f2b3e;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 30px 0;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 1s all ease;
+}
+
+   /* btn::before {
+
+        background: #7f2b3e;
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;            
+        transform:translate(-50%,-50%);
+        z-index: -1;
+        transition: all 0.6s ease;
+    }*/ 
+
+.middle{
+display:contents;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+
+.btn{
+    background-color: #414141;
+    position: relative;
+    border-radius: 30px;
+    color: white;
+    font-size: 15px ;
+    font-family: "montserrat";
+    text-decoration: none;
+    margin: 20px 20px;
+    border-radius: 2px solid #7f2b3e;
+    padding: 10px  15px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 1s all ease;
+}
+
+a.btn::before{
+    background: #7f2b3e;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    transition: all 0.6s ease;
+  }
+
+.btn2::before{
+width: 0%;
+height: 100%;
+}
+
+.btn2:hover::before{
+width: 100%;
+}
+
+
+   .btn:hover {
+    color: #fff;
+   }
+
+    /*fechamento do botão com movimento*/
+
+
+   @media(max-width:375px) {
+    .col {
+   position: absolute;
+   top: 4;
+   width: max-content; 
+   align-content: center;
+    }
+   }
+/*final dos codigos da apostila + final dos quadros*/
+
+
+
+
+
+/* funcionalidade->rodapé */      
+
+footer {
+    margin-top: 10%;
+    padding: 1.8rem 1.8rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    background-color: #414141;
+    color: #FFF;
+    width: 100%;   
+
+}
+h5.rodape {
+    text-align: left;
+}
+
+.foot-flex {
+    display:inline-flex;
+}
+
